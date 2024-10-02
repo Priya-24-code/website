@@ -93,13 +93,13 @@ const Members = () => {
             courseYear: 'B.Tech 4th Year',
             portfolio: '',
         },
-        demo:{
-            img: '',
-            name: 'demo',
-            about: 'Hey, I am <> from B.Tech <> year.',
-            githubProfile: '',
-            linkedinProfile: '',
-            courseYear: 'B.Tech 4th Year',
+        Samiksha:{
+            img: '/member_pics/samiksha.jpeg',
+            name: 'Samiksha Sharma',
+            about: 'Hey, I am Samiksha Sharma from B.Tech 2nd year.',
+            githubProfile: 'https://github.com/SamikshaaSharma',
+            linkedinProfile: 'https://www.linkedin.com/in/samiksha-sharma-4725b5248/',
+            courseYear: 'B.Tech 3rd Year',
             portfolio: '',
         },
         demo1:{
