@@ -11,19 +11,17 @@ const Home = () => {
 
     React.useEffect(()=>{
         const typed = new Typed(el.current, {
-            strings: ['Emulation'],
+            strings: ['Emulation Club'],
             typeSpeed: 100,
             backSpeed: 10,
             smartBackspace: true,
             loop:true
         })
-
         return () => {
             typed.destroy();
         }
     }, []);
     return (
-
         <div className='bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen  bg-fixed overflow-x-auto'>
             <Navbar />
             {/* <HacktoberfestReg /> */}
@@ -91,8 +89,8 @@ const Home = () => {
 
             {/* Footer */}
             <footer className="py-8 px-4 sm:px-6 lg:px-8 text-center text-gray-600">
-                <p>Created with ❣️ by Nasir Ali and Emulation Team. </p>
-                <p>&copy; 2024 Emulation Club. All rights reserved.</p>
+                <p className='text-black font-bold'>Created with ❣️ by Nasir Ali and Emulation Team. </p>
+                <p className='text-black font-bold'>&copy; 2024 Emulation Club. All rights reserved.</p>
             </footer>
         </div>
     )
