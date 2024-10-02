@@ -85,8 +85,8 @@ const AboutUs = () => {
             {/* Footer */}
             <footer className="bg-[#2D2822] text-white py-8 mt-16">
                 <div className="container mx-auto px-4 text-center">
-                    <p>Created with ❣️ by Nasir Ali and Emulation Team. </p>
-                    <p>&copy; 2024 Emulation Club. All rights reserved.</p>
+                    <p className='font-bold'>Created with ❣️ by Nasir Ali and Emulation Team. </p>
+                    <p className='font-bold'>&copy; 2024 Emulation Club. All rights reserved.</p>
                 </div>
             </footer>
         </div>
