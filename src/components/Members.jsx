@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Members = () => {
     const data = {
@@ -112,13 +113,13 @@ const Members = () => {
             portfolio: 'https://villgax-in.netlify.app/',
         },
         demo2:{
-            img: '',
-            name: 'demo',
-            about: 'Hey, I am <> from B.Tech <> year.',
-            githubProfile: '',
-            linkedinProfile: '',
-            courseYear: 'B.Tech 4th Year',
-            portfolio: '',
+            img: 'https://avatars.githubusercontent.com/u/120322314?v=4',
+            name: 'Arpit',
+            about: "Hello World </> I'm Arpit, a passionate MERN full-stack web developer.",
+            githubProfile: 'https://github.com/Arpit10110',
+            linkedinProfile: 'https://www.linkedin.com/in/arpit-agrahari-54aa192a1/',
+            courseYear: 'B.Tech 3rd Year',
+            portfolio: 'https://helloarpit.vercel.app/',
         },
         demo3:{
             img: '',
@@ -143,6 +144,7 @@ const Members = () => {
             
     
   return (
+    <>
     <div className='p-10 overflow-auto bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen w-screen bg-fixed'>
     <h1 className='text-center text-3xl font-semibold italic text-[#2D2822] mb-10'>Members</h1>
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center'>
@@ -159,7 +161,7 @@ const Members = () => {
                 ))}
     </div>
 </div>
-
+    </>
   )
 }
 
