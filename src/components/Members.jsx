@@ -1,4 +1,5 @@
 import React from 'react'
+import MemberCard from './ui/member-card'
 
 const Members = () => {
     const data = {
@@ -143,21 +144,22 @@ const Members = () => {
             
     
   return (
-    <div className='p-10 overflow-auto bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen w-screen bg-fixed'>
-    <h1 className='text-center text-3xl font-semibold italic text-[#2D2822] mb-10'>Members</h1>
-    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center'>
-    {Object.values(data).map((item, index) => (
-                    <div key={index} className='bg-[#C9C4BC] w-[100%] p-4 rounded-md shadow-[0_20px_50px_rgba(105,_89,_75,_0.8)] hover:scale-105 duration-300'>
-                        <img className='w-[50px] h-[50px] rounded-full mb-2' src={item.img} alt="" />
-                        <h1 className='font-semibold text-2xl mb-2'>{item.name}</h1>
-                        <p className='mb-2'>{item.about}</p>
-                        <p><i class="ri-user-line"></i> Portfolio: <a href={item.portfolio}>Checkout</a> </p>
-                        <p><i className="ri-github-fill"></i> GitHub Profile: <a href={item.githubProfile}>Checkout</a></p>
-                        <p><i className="ri-linkedin-box-fill"></i> LinkedIn Profile: <a href={item.linkedinProfile}>Checkout</a></p>
-                        <p><i className="ri-git-repository-fill"></i> {item.courseYear}</p>
-                    </div>
-                ))}
-    </div>
+    <div className='p-10 relative h-screen w-screen overflow-y-auto'>
+        <h1 className='text-center text-3xl font-semibold italic text-[#2D2822] mb-10'>Members</h1>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center'>
+                    {Object.values(data).map((item, index) => (
+                        <MemberCard key={"MemberCard__" + String(index)} 
+                        img={item.img}
+                        name={item.name}
+                        about={item.about}
+                        portfolio={item.portfolio}
+                        githubProfile={item.githubProfile}
+                        linkedinProfile={item.linkedinProfile}
+                        courseYear={item.courseYear}                        />
+                    ))}
+        </div>
+    <div className='absolute top-0 left-0 w-full h-full -z-20 blur- bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center bg-fixed '></div>
+    <div className='absolute top-0 left-0 w-full h-full -z-10 blur-sm bg-white/40 '></div>
 </div>
 
   )
