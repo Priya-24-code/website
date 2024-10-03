@@ -24,13 +24,13 @@ function MemberCard({
                     {about}
                 </p>
                 <div className="w-full h-8 flex flex-row items-center justify-center gap-2">
-                    <a href={portfolio}>
+                    <a href={portfolio} title={String(name) + "'s Portfolio"}>
                         <i className="text-2xl ri-user-2-fill"></i>{" "}
                     </a>
-                    <a href={githubProfile}>
+                    <a href={githubProfile} title={String(name) + "'s Github Account"}>
                         <i className="text-2xl ri-github-fill"></i>{" "}
                     </a>
-                    <a href={linkedinProfile}>
+                    <a href={linkedinProfile} title={String(name) + "'s LinkedIn Account"}>
                         <i className="text-2xl ri-linkedin-box-fill"></i>
                     </a>
                 </div>
