@@ -103,7 +103,7 @@ const Members = () => {
             courseYear: 'B.Tech 3rd Year',
             portfolio: '',
         },
-        demo1:{
+        Aakash :{
             img: '/member_pics/Aakash.jpg',
             name: 'Aakash Sharma',
             about: 'Hey, I am Aakash Sharma from B.Tech 4th year.',
@@ -149,7 +149,7 @@ const Members = () => {
     <h1 className='text-center text-3xl font-semibold italic text-[#2D2822] mb-10'>Members</h1>
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center'>
     {Object.entries(data)
-              .filter(([key]) => !key.toLowerCase().includes('demo')) // Filter out "demo" entries
+              .filter(([key]) => !key.toLowerCase().includes('demo')) // this logic is used to filtering out the demo details
               .map(([key, item], index) => (
                 <div key={index} className='bg-[#C9C4BC] w-[100%] p-4 rounded-md shadow-[0_20px_50px_rgba(105,_89,_75,_0.8)] hover:scale-105 duration-300'>
                   <img className='w-[50px] h-[50px] rounded-full mb-2' src={item.img} alt="" />
