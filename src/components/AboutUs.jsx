@@ -3,12 +3,7 @@ import React from 'react'
 const AboutUs = () => {
     return (
         <div className='bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen w-screen bg-fixed overflow-auto'>
-            {/* Header */}
-            <header className="bg-[#2D2822] text-white py-4">
-                <div className="container mx-auto px-4">
-                    <h1 className="text-3xl font-bold">Emulation Club</h1>
-                </div>
-            </header>
+            
 
             {/* Main Content */}
             <main className="container mx-auto px-4 py-8">
