@@ -40,15 +40,7 @@ const Members = () => {
             courseYear: 'B.Tech 4th Year',
             portfolio: '',
         },
-        4:{
-            img: '',
-            name: 'Anurag Verma',
-            about: 'Hey, I am Anurag Verma from B.Tech 4th year.',
-            githubProfile: '',
-            linkedinProfile: '',
-            courseYear: 'B.Tech 4th Year',
-            portfolio: '',
-        },
+        
         5:{
             img: '/member_pics/ankur.jpg',
             name: 'Ankur Jaiswal',
