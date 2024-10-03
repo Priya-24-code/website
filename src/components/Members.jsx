@@ -112,7 +112,7 @@ const Members = () => {
             courseYear: 'B.Tech 4th Year',
             portfolio: 'https://villgax-in.netlify.app/',
         },
-        demo2:{
+        Arpit:{
             img: 'https://avatars.githubusercontent.com/u/120322314?v=4',
             name: 'Arpit',
             about: "Hello World </> I'm Arpit, a passionate MERN full-stack web developer.",
@@ -148,17 +148,19 @@ const Members = () => {
     <div className='p-10 overflow-auto bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen w-screen bg-fixed'>
     <h1 className='text-center text-3xl font-semibold italic text-[#2D2822] mb-10'>Members</h1>
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center'>
-    {Object.values(data).map((item, index) => (
-                    <div key={index} className='bg-[#C9C4BC] w-[100%] p-4 rounded-md shadow-[0_20px_50px_rgba(105,_89,_75,_0.8)] hover:scale-105 duration-300'>
-                        <img className='w-[50px] h-[50px] rounded-full mb-2' src={item.img} alt="" />
-                        <h1 className='font-semibold text-2xl mb-2'>{item.name}</h1>
-                        <p className='mb-2'>{item.about}</p>
-                        <p><i class="ri-user-line"></i> Portfolio: <a href={item.portfolio}>Checkout</a> </p>
-                        <p><i className="ri-github-fill"></i> GitHub Profile: <a href={item.githubProfile}>Checkout</a></p>
-                        <p><i className="ri-linkedin-box-fill"></i> LinkedIn Profile: <a href={item.linkedinProfile}>Checkout</a></p>
-                        <p><i className="ri-git-repository-fill"></i> {item.courseYear}</p>
-                    </div>
-                ))}
+    {Object.entries(data)
+              .filter(([key]) => !key.toLowerCase().includes('demo')) // Filter out "demo" entries
+              .map(([key, item], index) => (
+                <div key={index} className='bg-[#C9C4BC] w-[100%] p-4 rounded-md shadow-[0_20px_50px_rgba(105,_89,_75,_0.8)] hover:scale-105 duration-300'>
+                  <img className='w-[50px] h-[50px] rounded-full mb-2' src={item.img} alt="" />
+                  <h1 className='font-semibold text-2xl mb-2'>{item.name}</h1>
+                  <p className='mb-2'>{item.about}</p>
+                  <p><i className="ri-user-line"></i> Portfolio: <a href={item.portfolio}>Checkout</a> </p>
+                  <p><i className="ri-github-fill"></i> GitHub Profile: <a href={item.githubProfile}>Checkout</a></p>
+                  <p><i className="ri-linkedin-box-fill"></i> LinkedIn Profile: <a href={item.linkedinProfile}>Checkout</a></p>
+                  <p><i className="ri-git-repository-fill"></i> {item.courseYear}</p>
+                </div>
+              ))}
     </div>
 </div>
     </>
