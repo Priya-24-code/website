@@ -16,7 +16,7 @@ const Members = () => {
         1:{
             img: 'https://media.licdn.com/dms/image/v2/D4D03AQGgtgJwBEJs0A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688061709044?e=1733356800&v=beta&t=o6dy7jKffyw8LbaJzMgruNxH0dkeQ-YsLRBMKw9dnPA',
             name: 'Anurag Chauhan',
-            about: 'Hey, I am Nasir Ali from B.Tech 4th year.',
+            about: 'Hey, I am Anurag Chauhan from B.Tech 4th year.',
             githubProfile: '',
             linkedinProfile: '',
             courseYear: 'B.Tech 4th Year',
@@ -25,7 +25,7 @@ const Members = () => {
         2:{
             img: '/member_pics/satyam.jpg',
             name: 'Satyam Shrivastav',
-            about: 'Hi i am  Software developer',
+            about: 'Hi i am a Software developer',
             githubProfile: '',
             linkedinProfile: '',
             courseYear: 'B.Tech 4th Year',
@@ -79,7 +79,7 @@ const Members = () => {
         8:{
             img: 'https://media.licdn.com/dms/image/v2/D5603AQGMhVwTuJraiQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1668236353674?e=1733356800&v=beta&t=b1UBaNIR7t7PHe0j1W9wJkMXVi4RH8zzymuYXda25N0',
             name: 'Sachin Agarwal',
-            about: 'Hey, I am Sachin from B.Tech 3rd year.',
+            about: 'Hey, I am Sachin Agarwal from B.Tech 3rd year.',
             githubProfile: 'https://github.com/Sachin-Agarwal1',
             linkedinProfile: 'https://www.linkedin.com/in/sachin-agarwal-7b5387240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
             courseYear: 'B.Tech 3rd Year',
