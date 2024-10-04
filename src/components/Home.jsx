@@ -28,7 +28,7 @@ const Home = () => {
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold  mb-4">
                     Welcome to <span className="text-[#4F46E8]" ref={el} />
                 </h1>
-                <p className="text-xl text-[#4F46E8] mb-8 max-w-2xl mx-auto">
+                <p className="text-xl font-bold text-[#000000] mb-8 max-w-2xl mx-auto">
                     Unleash your coding potential and build amazing projects with our vibrant community of developers.
                 </p>
                 <button className="bg-[#58534C] hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
