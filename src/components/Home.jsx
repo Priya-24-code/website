@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Members from './Members'
-import HacktoberfestReg from './HacktoberfestReg'
 import AboutUs from './AboutUs'
 import Typed from 'typed.js'
 
@@ -22,11 +21,9 @@ const Home = () => {
         }
     }, []);
     return (
-        <div className='bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen  bg-fixed overflow-x-auto'>
-            <Navbar />
-            {/* <HacktoberfestReg /> */}
-            {/* <Members /> */}
-            {/* <AboutUs /> */}
+        <div className='  bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen  bg-fixed overflow-x-auto'>
+            
+           
             <section className="py-10 px-4 sm:px-6 lg:px-8 text-center">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold  mb-4">
                     Welcome to <span className="text-[#4F46E8]" ref={el} />
