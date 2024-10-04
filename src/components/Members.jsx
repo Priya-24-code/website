@@ -64,8 +64,8 @@ const Members = () => {
             img: '/member_pics/tanya.jpg',
             name: 'Tanya Gupta',
             about: 'Hey, I am Tanya Gupta from B.Tech 3rd year.',
-            githubProfile: '',
-            linkedinProfile: '',
+            githubProfile: 'https://github.com/RKTanya-Gupta',
+            linkedinProfile: 'www.linkedin.com/in/tanya-gupta-9a92212a0',
             courseYear: 'B.Tech 3rd Year',
             portfolio: '',
         },
@@ -114,6 +114,15 @@ const Members = () => {
             courseYear: 'B.Tech 3rd Year',
             portfolio: 'https://helloarpit.vercel.app/',
         },
+        11: {
+            img: 'https://media.licdn.com/dms/image/v2/D5603AQF7bjvX4iRMGQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724474581187?e=1733356800&v=beta&t=LXQBw2RA4TozONzk3ClBHuJ3zGOphmMxveocy6cTavk',
+            name: 'Rahul Pal',
+            about: 'Hey, I am Rahul Pal from B.Tech 2nd year.',
+            githubProfile: 'https://github.com/rahulholkar16',
+            linkedinProfile: 'https://www.linkedin.com/in/rahul-pal-63b143253/',
+            courseYear: 'B.Tech 2nd Year',
+            portfolio: '',
+        }
 
     }
 
