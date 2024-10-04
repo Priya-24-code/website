@@ -21,7 +21,7 @@ const Home = () => {
         }
     }, []);
     return (
-        <div className='  bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen  bg-fixed overflow-x-auto'>
+        <div className='relative overflow-x-auto'>
             
            
             <section className="py-10 px-4 sm:px-6 lg:px-8 text-center">
@@ -89,6 +89,8 @@ const Home = () => {
                 <p className='text-black font-bold'>Created with ❣️ by Nasir Ali and Emulation Team. </p>
                 <p className='text-black font-bold'>&copy; 2024 Emulation Club. All rights reserved.</p>
             </footer>
+            <div className='absolute top-0 left-0 w-full h-full -z-20 blur- bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center bg-fixed '></div>
+            <div className='absolute top-0 left-0 w-full h-full -z-10 blur-sm bg-white/40 '></div>
         </div>
     )
 }
