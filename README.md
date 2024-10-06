@@ -23,29 +23,29 @@
 
 ### Key Goals:
 
--   Fast performance with Vite
--   Clean and minimal UI with Tailwind CSS
--   Scalable and maintainable codebase
+- Fast performance with Vite
+- Clean and minimal UI with Tailwind CSS
+- Scalable and maintainable codebase
 
 ---
 
 ## Features
 
--   **React**: A JavaScript library for building user interfaces.
--   **Vite**: A modern and fast build tool for frontend development.
--   **Tailwind CSS**: Utility-first CSS framework to style components.
--   **ESLint & Prettier**: Linting and code formatting for a consistent codebase.
--   **Theme Support**: Customizable themes with Tailwind’s configuration.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A modern and fast build tool for frontend development.
+- **Tailwind CSS**: Utility-first CSS framework to style components.
+- **ESLint & Prettier**: Linting and code formatting for a consistent codebase.
+- **Theme Support**: Customizable themes with Tailwind’s configuration.
 
 ---
 
 ## Tech Stack
 
--   **Frontend**: React (JavaScript/TypeScript)
--   **Build Tool**: Vite
--   **Styling**: Tailwind CSS
--   **Linting & Formatting**: ESLint, Prettier
--   **Version Control**: Git & GitHub
+- **Frontend**: React (JavaScript/TypeScript)
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Linting & Formatting**: ESLint, Prettier
+- **Version Control**: Git & GitHub
 
 ---
 
@@ -55,15 +55,14 @@
 
 Before you start, make sure you have the following installed:
 
--   [Node.js](https://nodejs.org/en/) (v14 or higher)
--   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Node.js](https://nodejs.org/en/) (v14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Step 1: Clone the repository
 
 First, clone this repository to your local machine:
 
-`git clone https://github.com/your-username/[project-name].git
-cd [project-name]`
+`git clone https://github.com/your-username/[project-name].git cd [project-name]`
 
 ### Step 2: Install Dependencies
 
@@ -131,19 +130,22 @@ const MyComponent = () => (
 
 To run the project locally, use:
 
-`npm run dev # or yarn dev`
+`npm run dev 
+# or yarn dev`
 
 ### Production Build
 
 To create a production build, use:
 
-`npm run build # or yarn build`
+`npm run build 
+# or yarn build`
 
 ### Linting
 
 To check for linting errors, use:
 
-`npm run lint # or yarn lint`
+`npm run lint 
+# or yarn lint`
 
 ---
 
@@ -193,8 +195,8 @@ We welcome contributions from the community! Please read our [Contributing Guide
 
 ### Steps to Contribute:
 
-1.  Fork the repository
-2.  Create a new branch for your feature or bugfix
-3.  Make your changes and commit them
-4.  Push your changes to your fork
-5.  Create a pull request on the main repository
+1. Fork the repository
+2. Create a new branch for your feature or bugfix
+3. Make your changes and commit them
+4. Push your changes to your fork
+5. Create a pull request on the main repository
