@@ -21,14 +21,14 @@ const Home = () => {
         }
     }, []);
     return (
-        <div className='  bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center h-screen  bg-fixed overflow-x-auto'>
+        <div className='relative overflow-x-auto'>
             
            
             <section className="py-10 px-4 sm:px-6 lg:px-8 text-center">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold  mb-4">
                     Welcome to <span className="text-[#4F46E8]" ref={el} />
                 </h1>
-                <p className="text-xl text-[#4F46E8] mb-8 max-w-2xl mx-auto">
+                <p className="text-xl font-bold text-[#000000] mb-8 max-w-2xl mx-auto">
                     Unleash your coding potential and build amazing projects with our vibrant community of developers.
                 </p>
                 <button className="bg-[#58534C] hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
@@ -89,6 +89,8 @@ const Home = () => {
                 <p className='text-black font-bold'>Created with ❣️ by Nasir Ali and Emulation Team. </p>
                 <p className='text-black font-bold'>&copy; 2024 Emulation Club. All rights reserved.</p>
             </footer>
+            <div className='absolute top-0 left-0 w-full h-full -z-20 blur- bg-[url(/pic.png)] sm:bg-[url(/backgroundImg.png)] bg-cover bg-center bg-fixed '></div>
+            <div className='absolute top-0 left-0 w-full h-full -z-10 blur-sm bg-white/40 '></div>
         </div>
     )
 }
