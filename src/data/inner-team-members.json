@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Satyam Shrivastav",
+        "role": "Club Head",
+        "image": "/member_pics/satyam.jpg"
+    },
+    {
+        "name": "Aman Jha ",
+        "role": "Club Head",
+        "image": "/member_pics/aman.jpg"
+    },
+    {
+        "name": "Nasir Ali",
+        "role": "Development and DSA Mentor",
+        "image": "https://media.licdn.com/dms/image/v2/D5603AQHQhkcrXUM_7A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727407498488?e=1733356800&v=beta&t=OKbTZpAQlRPRP4L6_cosycxwBqhlnOz0dUwjpiuOplU"
+    },
+    {
+        "name": "Anurag Chauhan",
+        "role": "Planner and head",
+        "image": "https://media.licdn.com/dms/image/v2/D4D03AQGgtgJwBEJs0A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688061709044?e=1733356800&v=beta&t=o6dy7jKffyw8LbaJzMgruNxH0dkeQ-YsLRBMKw9dnPA"
+    },
+    {
+        "name": "Ankur Jaiswal",
+        "role": "Club Coordinator and core member",
+        "image": "/member_pics/ankur.jpg"
+    },
+    {
+        "name": "Ananya Gupta",
+        "role": "Club manager and core member ",
+        "image": "/member_pics/ananya.jpg"
+    },
+    {
+        "name": "Tanya Gupta",
+        "role": "Club manager and core member ",
+        "image": "/member_pics/tanya.jpg"
+    },
+    {
+        "name": "Sachin Agarwal",
+        "role": "Club core member",
+        "image": "https://media.licdn.com/dms/image/v2/D5603AQGMhVwTuJraiQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1668236353674?e=1733356800&v=beta&t=b1UBaNIR7t7PHe0j1W9wJkMXVi4RH8zzymuYXda25N0"
+    }
+]
