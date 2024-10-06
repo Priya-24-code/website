@@ -5,20 +5,23 @@ We welcome contributions from everyone and are excited to have you as part of ou
 
 ## Table of Contents
 
-    1. [Getting Started](#getting-started)
-    2. [Code of Conduct](#code-of-conduct)
-    3. [Language Change Limitations](#language-change-limitations)
-    4. [Theme Rules](#theme-rules)
-    5. [Page Definition Rules](#page-definition-rules)
-    6. [Creating a Pull Request](#creating-a-pull-request)
-    7. [Testing](#testing)
-    8. [Additional Resources](#additional-resources)
+1. [Getting Started](#getting-started)
+2. [Code of Conduct](#code-of-conduct)
+3. [Language Change Limitations](#language-change-limitations)
+4. [Theme Rules](#theme-rules)
+5. [Page Definition Rules](#page-definition-rules)
+6. [Creating a Pull Request](#creating-a-pull-request)
+7. [Testing](#testing)
+8. [Additional Resources](#additional-resources)
 
 ## Getting Started
 
 -   1. **Fork the repository**: Click the "Fork" button on the top right of the repository page.
 -   2. **Clone your fork**: Clone the repository to your local machine using:
-       `git clone [https://github.com/your-username/your-fork-project-name].git && cd [your-fork-project-name]`
+       ```
+        git clone [https://github.com/your-username/your-fork-project-name].git
+        cd [your-fork-project-name]
+        ```
 -   3. **Install dependencies**: Run the following command to install necessary dependencies:
        `npm install`
 
