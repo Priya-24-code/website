@@ -8,17 +8,17 @@
 
 Examples of behavior that contributes to a positive environment for our community include:
 
-- **Being respectful**: Treat everyone with respect. Be considerate of differing viewpoints and experiences.
-- **Being inclusive**: Encourage and support diverse voices. We welcome contributors from all backgrounds.
-- **Being constructive**: Provide helpful and constructive feedback. Focus on the work, not the person.
-- **Being kind**: Show empathy and kindness towards other participants and their comments.
+-   **Being respectful**: Treat everyone with respect. Be considerate of differing viewpoints and experiences.
+-   **Being inclusive**: Encourage and support diverse voices. We welcome contributors from all backgrounds.
+-   **Being constructive**: Provide helpful and constructive feedback. Focus on the work, not the person.
+-   **Being kind**: Show empathy and kindness towards other participants and their comments.
 
 Examples of unacceptable behavior by participants include:
 
-- **Harassment**: Offensive comments, personal comment attacks, or deliberately offensive behaviors.
-- **Inappropriate language**: Use of sexual language or imagery, as well as derogatory or dehumanizing comments.
-- **Trolling**: Engaging in harmful or disruptive behaviors intended to provoke or upset others.
-- **Intimidation**: Stalking, following, or any form of intimidation.
+-   **Harassment**: Offensive comments, personal comment attacks, or deliberately offensive behaviors.
+-   **Inappropriate language**: Use of sexual language or imagery, as well as derogatory or dehumanizing comments.
+-   **Trolling**: Engaging in harmful or disruptive behaviors intended to provoke or upset others.
+-   **Intimidation**: Stalking, following, or any form of intimidation.
 
 ## Reporting Issues
 
@@ -30,7 +30,7 @@ Participants asked to stop any inappropriate behavior are expected to comply imm
 
 ## Acknowledgments
 
-This Code of Conduct is based on the [Contributor Covenant](https://www.contributor-covenant.org), version 2.0, available at 
+This Code of Conduct is based on the [Contributor Covenant](https://www.contributor-covenant.org), version 2.0, available at
 [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html)
 
 For answers to common questions about this code of conduct, see the [FAQ](https://www.contributor-covenant.org/faq).

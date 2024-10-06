@@ -2,19 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.base-theme{
-    @apply bg-white dark:bg-neutral-800 text-black dark:text-white;
+.base-theme {
+	@apply bg-white dark:bg-neutral-800 text-black dark:text-white;
 }
 
-.btn-hover-theme{
-    @apply hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black hover:shadow-sm hover:shadow-black dark:hover:shadow-sm dark:hover:shadow-white;
+.btn-hover-theme {
+	@apply hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black hover:shadow-sm hover:shadow-black dark:hover:shadow-sm dark:hover:shadow-white;
 }
 
-.shadow-theme{
-    @apply hover:shadow-sm hover:shadow-black dark:hover:shadow-sm dark:hover:shadow-white;
+.shadow-theme {
+	@apply hover:shadow-sm hover:shadow-black dark:hover:shadow-sm dark:hover:shadow-white;
 }
 
-.border-theme{
-    @apply border-white dark:border-neutral-700;
+.border-theme {
+	@apply border-white dark:border-neutral-700;
 }
