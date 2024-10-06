@@ -83,6 +83,7 @@ const Home = () => {
                             world.
                         </p>
                     </div>
+                  
                 </div>
             </section>
 
