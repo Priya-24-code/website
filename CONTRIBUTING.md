@@ -18,9 +18,9 @@ We welcome contributions from everyone and are excited to have you as part of ou
 
 -   1. **Fork the repository**: Click the "Fork" button on the top right of the repository page.
 -   2. **Clone your fork**: Clone the repository to your local machine using:
-       ```
-        git clone [https://github.com/your-username/your-fork-project-name].git
-        cd [your-fork-project-name]
+        ```
+         git clone [https://github.com/your-username/your-fork-project-name].git
+         cd [your-fork-project-name]
         ```
 -   3. **Install dependencies**: Run the following command to install necessary dependencies:
        `npm install`
