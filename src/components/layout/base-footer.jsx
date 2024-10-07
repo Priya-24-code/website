@@ -3,7 +3,7 @@ function BaseFooter() {
 	return (
 		<footer
 			className={
-				"w-full p-6 md:p-8 font-semibold flex flex-col items-center justify-center border-t" +
+				"w-full p-6 md:p-8 font-semibold flex flex-col items-center justify-center border-t text-center" +
 				" base-theme border-theme"
 			}
 		>

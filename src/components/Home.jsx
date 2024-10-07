@@ -79,7 +79,7 @@ const Home = () => {
 
 			{/* sign up section */}
 			<section className={"py-16 flex flex-col items-center justify-center" + " base-theme"}>
-				<h2 className="text-2xl sm:text-4xl font-bold mb-4">Ready to Start Your Coding Journey?</h2>
+				<h2 className="text-2xl sm:text-4xl font-bold mb-4 text-center px-2 md:px-4">Ready to Start Your Coding Journey?</h2>
 				<p className="text-base font-semibold w-9/12 max-w-md text-center">
 					Join Emulation Club today and take the first step towards becoming a skilled developer in our
 					supportive community.
