@@ -81,6 +81,15 @@
 		"portfolio": ""
 	},
 	"10": {
+		"img": "/member_pics/Aakash.jpg",
+		"name": "Aakash Sharma",
+		"about": "Hey, I am Aakash Sharma from B.Tech 4th year.",
+		"githubProfile": "https://github.com/aakashsharma7",
+		"linkedinProfile": "https://www.linkedin.com/in/aakash-sharma-2216b8205/",
+		"courseYear": "B.Tech 4th Year",
+		"portfolio": "https://villgax-in.netlify.app/"
+	},
+	"11": {
 		"img": "/member_pics/samiksha.jpeg",
 		"name": "Samiksha Sharma",
 		"about": "Hey, I am Samiksha Sharma from B.Tech 2nd year.",
@@ -89,13 +98,13 @@
 		"courseYear": "B.Tech 3rd Year",
 		"portfolio": ""
 	},
-	"11": {
-		"img": "/member_pics/Aakash.jpg",
-		"name": "Aakash Sharma",
-		"about": "Hey, I am Aakash Sharma from B.Tech 4th year.",
-		"githubProfile": "https://github.com/aakashsharma7",
-		"linkedinProfile": "https://www.linkedin.com/in/aakash-sharma-2216b8205/",
-		"courseYear": "B.Tech 4th Year",
-		"portfolio": "https://villgax-in.netlify.app/"
+	"12":{
+		"img": "/member_pics/prachi_karn.jpg",
+		"name": "Prachi Karn",
+		"about": "Hey, I am Prachi Karn from B.Tech 2nd year.",
+		"githubProfile": "https://github.com/Prachi-Karn",
+		"linkedinProfile": "https://www.linkedin.com/in/prachi-karn-437973237/",
+		"courseYear": "B.Tech 2nd Year",
+		"portfolio": ""
 	}
 }
