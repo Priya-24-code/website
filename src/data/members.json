@@ -106,5 +106,14 @@
 		"linkedinProfile": "https://www.linkedin.com/in/prachi-karn-437973237/",
 		"courseYear": "B.Tech 2nd Year",
 		"portfolio": ""
+	},
+	"13":{
+		"img": "/member_pics/priya.jpg",
+		"name": "Priya Pandey",
+		"about": "Hey, I am Priya Pandey from B.Tech 2nd year.",
+		"githubProfile": "https://github.com/Priya-24-code",
+		"linkedinProfile": "",
+		"courseYear": "B.Tech 2nd Year",
+		"portfolio": ""
 	}
 }
